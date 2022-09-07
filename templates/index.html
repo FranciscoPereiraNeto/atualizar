@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+       <meta charset="UTF-8">
+       <title>{{titulo}}</title>
+    </head>
+    <body>
+         <form action="/" method="POST">
+            <label id="lNome" name="lNome">nome:</label>
+            <input type="text" id="tNome" name="tNovoNome" placeholder="=Informe seu nome"/><br>
+
+            <label id="lTelefone" name="lTelefone">telefone:</label><br> 
+            <input type="text" id="tTelefone" name="tNovoTelefone" placeholder="(11) 99999-9999"/><br>
+
+            <label id="lEndereco" name="lEndereco">endereco:</label><br>
+            <input type="text" id="tEndereco" name="tNovoEndereco" placeholder="Informe seu endereco:"/><br>
+
+            <label id="lData" name="lData">Data de nascimento:</label><br>
+            <input type="date" id="tData" name="tNovoData"/><br>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+            <label id="result" name="result">{{resultado}}</label>
+            <form>
+                <label id="result" name="result">{{resultado}}</label>
+
+                <form action="/consultar.html" method="POST">
+                <label id="lCodigo" name="lCodigo">Código:</label><br>
+                <input type="number" id="tCodigo" name="tNovoCodigo"/><br>
+                <button type="submit">Consultar</button>
+
+        </body>
+
+
+</html>
